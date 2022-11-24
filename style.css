@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./image/photo-1523821741446-edb2b68bb7a0.avif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 3% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.nav-munu{
+    flex: 1;
+    text-align: right;
+}
+.nav-menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 12px;
+    position: relative;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.1s all ease;
+}
+.nav-menu ul li a:hover{
+    color: yellow;
+}
+
